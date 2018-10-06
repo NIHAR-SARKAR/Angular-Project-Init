@@ -1,26 +1,27 @@
-# Angular-Project-Init
+# Start
 
-Setup for local development
-The QuickStart live-coding / download example example is an Angular playground. It's not where you'd develop a real application. You should develop locally on your own machine ... and that's also how we think you should learn Angular.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-Setting up a new project on your machine is quick and easy with the QuickStart seed, maintained on github.
+## Development server
 
-Make sure you have Node.js® and npm installed.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Clone
-Perform the clone-to-launch steps with these terminal commands.
+## Code scaffolding
 
-content_copy
-git clone https://github.com/angular/quickstart.git quickstart
-cd quickstart
-npm install
-npm start
-npm start fails in Bash for Windows in versions earlier than the Creator's Update (April 2017).
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Download
-Download the QuickStart seed and unzip it into your project folder. Then perform the remaining steps with these terminal commands.
+## Build
 
-content_copy
-cd quickstart
-npm install
-npm start
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
