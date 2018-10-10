@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, ViewChild } from '@angular/core';
 import { ChildComponent } from './child/Child.Component';
 
 @Component({
@@ -8,4 +8,7 @@ import { ChildComponent } from './child/Child.Component';
 })
 export class AppComponent {
   title = 'app';
+  ChildValue = 'Hello new World';
+  @ViewChild(ChildComponent) Child: ChildComponent;
+
 }
